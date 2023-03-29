@@ -6,7 +6,7 @@ This game is a little showcase of a snow shader I have created. This was my firs
 
 ## Features
 
-All relevant scripts can be found in `Snow-Shader-Wheel-Tracks-/Assets/Scripts/` and shaders found in `Snow-Shader-Wheel-Tracks-/Assets/Shaders/` This game uses various 3rd party assets which helped in showcasing the shaders.
+All relevant scripts can be found in `Snow-Shader-Wheel-Tracks-/Assets/Scripts/` and shaders found in `Snow-Shader-Wheel-Tracks-/Assets/Shaders/` This game uses various 3rd party assets which helped in showcasing the shaders. Descriptions of each shader and script:
 
 * This game allowed me to learn about the different kinds of shaders such as geometry and vertex shaders. The three shaders I created for this project are:
   
