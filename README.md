@@ -6,12 +6,13 @@ This game is a little showcase of a snow shader I have created. This was my firs
 
 ## Features
 
-All scripts relevant scripts can be found in `Snow-Shader-Wheel-Tracks-/Assets/Scripts/` and shaders found in `Snow-Shader-Wheel-Tracks-/Assets/Shaders/`
+All relevant scripts can be found in `Snow-Shader-Wheel-Tracks-/Assets/Scripts/` and shaders found in `Snow-Shader-Wheel-Tracks-/Assets/Shaders/` This game uses various 3rd party assets which helped in showcasing the shaders.
 
-* Through this game I learned a lot about combining Unity's physics engine with scripting to create dynamic movement that could simulate a golf ball. Some example scripts are:
+* This game allowed me to learn about the different kinds of shaders such as geometry and vertex shaders. The three shaders I created for this project are:
   
-  * `AddForceToBall` This script controls the main functions of the golf ball. It takes user input and converts it into gradually increasing force. It also provides the user with an estimated trajectory to help them identify the landing point of the ball.
-  * `BouncePad` This simple script applies a force based on the normal that the golf ball lands on
+  * `SnowTracks` This script managed the main qualities of the snow such as colour/texture, smoothness and how mettalic it was. It also allowed the plane the shader would be placed on to tesselate. This was very important for deforming the snow mimicking deep tracks under the cars wheels.
+  * `SnowFall` This next script is what created the effect of snow filling up the tracks. It placed dots on in the places that were defromed by the cars wheels until they were completely filled.
+  * Finally one of the most important shaders, `DrawTracks`
 
 * I also learned about using user interface with scripting to create modular and interactive UI. In this case a dialogue system which provided narrative but also a tutorial which would guide the user. The two main dialogue scripts are:
 
