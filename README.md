@@ -10,9 +10,9 @@ All relevant scripts can be found in `Snow-Shader-Wheel-Tracks-/Assets/Scripts/`
 
 * This game allowed me to learn about the different kinds of shaders such as geometry and vertex shaders. The three shaders I created for this project are:
   
-  * `SnowTracks` This script managed the main qualities of the snow such as colour/texture, smoothness and how mettalic it was. It also allowed the plane the shader would be placed on to tesselate. This was very important for deforming the snow mimicking deep tracks under the cars wheels.
-  * `SnowFall` This next script is what created the effect of snow filling up the tracks. It placed dots on in the places that were defromed by the cars wheels until they were completely filled.
-  * Finally one of the most important shaders, `DrawTracks`
+  * `SnowTracks` This shader managed the main qualities of the snow such as colour/texture, smoothness and how mettalic it was. It also allowed the plane the shader would be placed on to tesselate. This was very important for deforming the snow mimicking deep tracks under the cars wheels.
+  * `SnowFall` This next shader is what created the effect of snow filling up the tracks. It placed dots on in the places that were defromed by the cars wheels until they were completely filled.
+  * Finally one of the most important shaders, `DrawTracks`. This shader would draw the coordinates of each wheel to a splatmap. this splatmap consisted of two colour one representing the original colour of the snow, the other a darker colour representing deeper and more compact snow. This shader would draw to the splatmap which the `SnowTracks` shader would then convert into the texture used on the ground (snow).
 
 * I also learned about using user interface with scripting to create modular and interactive UI. In this case a dialogue system which provided narrative but also a tutorial which would guide the user. The two main dialogue scripts are:
 
